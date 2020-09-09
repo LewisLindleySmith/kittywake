@@ -1,0 +1,17 @@
+{
+    "version": 3,
+    "mappings": "AACA,OAAO,CAAC,gHAAI",
+    "sources": [
+        "main.scss",
+        "_variables.scss",
+        "_base.scss",
+        "_nav.scss",
+        "_details.scss",
+        "_carousel.scss",
+        "_places.scss",
+        "_maps.scss",
+        "_footer.scss"
+    ],
+    "names": [],
+    "file": "main.css"
+}
