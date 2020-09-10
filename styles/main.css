@@ -9,7 +9,11 @@ li {
   list-style-type: none;
 }
 
-.nav {
+header {
+  width: 100%;
+}
+
+header .nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -17,35 +21,37 @@ li {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  width: 100%;
+  width: 80%;
   margin: 20px auto;
+  left: 0;
+  right: 0;
   z-index: 10;
 }
 
-.nav .logo {
+header .nav .logo {
   padding-left: 20px;
 }
 
-.nav .nav-bar ul {
+header .nav .nav-bar ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.nav .nav-bar ul li {
+header .nav .nav-bar ul li {
   padding: 20px;
 }
 
-.nav .nav-bar ul li a {
+header .nav .nav-bar ul li a {
   text-decoration: none;
   color: #fff;
 }
 
-.nav .btn {
+header .nav .btn {
   padding-right: 20px;
 }
 
-.nav .btn .book-btn {
+header .nav .btn .book-btn {
   background-color: #90e9e9;
   border: none;
   border-radius: 7px;
@@ -56,7 +62,7 @@ li {
   cursor: pointer;
 }
 
-.nav .btn .book-btn:hover {
+header .nav .btn .book-btn:hover {
   background-color: #52a5a5;
   color: #fff;
   -webkit-transition: background-color 1s, color 1s;

@@ -1,48 +1,54 @@
-.nav {
-  display: flex;
-  position: absolute;
-  justify-content: space-between;
+header {
   width: 100%;
-  margin: 20px auto;
-  z-index: 10;
 
-  .logo {
-    padding-left: 20px;
-  }
+  .nav {
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+    width: 80%;
+    margin: 20px auto;
+    left: 0;
+    right: 0;
+    z-index: 10;
 
-  .nav-bar {
-    ul {
-      display: flex;
+    .logo {
+      padding-left: 20px;
+    }
 
-      li {
-        padding: 20px;
+    .nav-bar {
+      ul {
+        display: flex;
 
-        a {
-          text-decoration: none;
-          color: $font-color;
-          // font-weight: 700;
+        li {
+          padding: 20px;
+
+          a {
+            text-decoration: none;
+            color: $font-color;
+            // font-weight: 700;
+          }
         }
       }
     }
-  }
 
-  .btn {
-    padding-right: 20px;
+    .btn {
+      padding-right: 20px;
 
-    .book-btn {
-      background-color: $primary;
-      border: none;
-      border-radius: 7px;
-      padding: 10px 15px;
-      color: #000000;
-      font-weight: 700;
-      margin-top: 15px;
-      cursor: pointer;
+      .book-btn {
+        background-color: $primary;
+        border: none;
+        border-radius: 7px;
+        padding: 10px 15px;
+        color: #000000;
+        font-weight: 700;
+        margin-top: 15px;
+        cursor: pointer;
 
-      &:hover {
-        background-color: #52a5a5;
-        color: #fff;
-        transition: background-color 1s, color 1s;
+        &:hover {
+          background-color: #52a5a5;
+          color: #fff;
+          transition: background-color 1s, color 1s;
+        }
       }
     }
   }
