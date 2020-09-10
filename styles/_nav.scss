@@ -1,0 +1,53 @@
+.nav {
+  display: flex;
+  position: absolute;
+  justify-content: space-between;
+  width: 100%;
+  margin: 20px auto;
+  z-index: 10;
+
+  .logo {
+    padding-left: 20px;
+  }
+
+  .nav-bar {
+    ul {
+      display: flex;
+
+      li {
+        padding: 20px;
+
+        a {
+          text-decoration: none;
+          color: $font-color;
+        }
+      }
+    }
+  }
+
+  .btn {
+    padding-right: 20px;
+
+    .book-btn {
+      background-color: $primary;
+      border: none;
+      border-radius: 7px;
+      padding: 10px 15px;
+      color: #000000;
+      font-weight: 700;
+      margin-top: 15px;
+      cursor: pointer;
+    }
+  }
+}
+
+// hero banner
+
+.hero-banner {
+  position: relative;
+
+  .hero-img {
+    height: 750px;
+    width: 100%;
+  }
+}
