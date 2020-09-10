@@ -20,6 +20,7 @@
         a {
           text-decoration: none;
           color: $font-color;
+          // font-weight: 700;
         }
       }
     }
@@ -37,6 +38,12 @@
       font-weight: 700;
       margin-top: 15px;
       cursor: pointer;
+
+      &:hover {
+        background-color: #52a5a5;
+        color: #fff;
+        transition: background-color 1s, color 1s;
+      }
     }
   }
 }
@@ -49,5 +56,20 @@
   .hero-img {
     height: 750px;
     width: 100%;
+  }
+
+  .banner-text {
+    text-align: center;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: $font-color;
+    text-shadow: 1px 1px 1px #414141;
+    line-height: 1.1;
+
+    h1 {
+      font-size: 35px;
+    }
   }
 }

@@ -56,6 +56,13 @@ li {
   cursor: pointer;
 }
 
+.nav .btn .book-btn:hover {
+  background-color: #52a5a5;
+  color: #fff;
+  -webkit-transition: background-color 1s, color 1s;
+  transition: background-color 1s, color 1s;
+}
+
 .hero-banner {
   position: relative;
 }
@@ -63,5 +70,21 @@ li {
 .hero-banner .hero-img {
   height: 750px;
   width: 100%;
+}
+
+.hero-banner .banner-text {
+  text-align: center;
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  color: #fff;
+  text-shadow: 1px 1px 1px #414141;
+  line-height: 1.1;
+}
+
+.hero-banner .banner-text h1 {
+  font-size: 35px;
 }
 /*# sourceMappingURL=main.css.map */
