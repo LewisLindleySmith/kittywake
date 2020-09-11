@@ -1,0 +1,28 @@
+.details {
+  width: 80%;
+  display: flex;
+  margin: 20px auto;
+  height: 550px;
+
+  .details-info {
+    border: 1px solid #000000;
+    border-radius: 10px;
+    padding: 20px;
+
+    .details-container {
+      display: flex;
+      padding-top: 10px;
+
+      .first-col {
+        padding-right: 20px;
+        background-color: red;
+        width: 200px;
+      }
+
+      .second-col {
+        width: 200px;
+        background-color: blue;
+      }
+    }
+  }
+}
