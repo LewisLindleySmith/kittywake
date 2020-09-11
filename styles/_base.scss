@@ -4,6 +4,10 @@
   font-family: $font-family-base;
 }
 
+body {
+  background-color: $secondary;
+}
+
 li {
   list-style-type: none;
 }

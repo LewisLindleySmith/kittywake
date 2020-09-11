@@ -1,19 +1,16 @@
 header {
+  height: 80px;
   width: 100%;
+  background-color: #eff6f6;
 
   .nav {
     display: flex;
-    position: absolute;
     justify-content: space-between;
     width: 80%;
     margin: 20px auto;
     left: 0;
     right: 0;
     z-index: 10;
-
-    .logo {
-      // padding-left: 20px;
-    }
 
     .nav-bar {
       ul {
@@ -25,9 +22,10 @@ header {
           a {
             text-decoration: none;
             color: $font-color;
+            color: #000000;
 
             &:hover {
-              color: #d1f0eb;
+              color: #385a54;
             }
           }
         }

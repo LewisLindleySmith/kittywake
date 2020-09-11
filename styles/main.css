@@ -5,19 +5,24 @@
   font-family: "Montserrat", sans-serif;
 }
 
+body {
+  background-color: #eff6f6;
+}
+
 li {
   list-style-type: none;
 }
 
 header {
+  height: 80px;
   width: 100%;
+  background-color: #eff6f6;
 }
 
 header .nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  position: absolute;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -41,10 +46,11 @@ header .nav .nav-bar ul li {
 header .nav .nav-bar ul li a {
   text-decoration: none;
   color: #fff;
+  color: #000000;
 }
 
 header .nav .nav-bar ul li a:hover {
-  color: #d1f0eb;
+  color: #385a54;
 }
 
 header .nav .btn .book-btn {
