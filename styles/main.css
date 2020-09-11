@@ -43,6 +43,10 @@ header .nav .nav-bar ul li a {
   color: #fff;
 }
 
+header .nav .nav-bar ul li a:hover {
+  color: #d1f0eb;
+}
+
 header .nav .btn .book-btn {
   background-color: #90e9e9;
   border: none;
