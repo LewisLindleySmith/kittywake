@@ -96,36 +96,72 @@ header .nav .btn .book-btn:hover {
   font-size: 35px;
 }
 
-.details {
-  width: 80%;
+.details .outer-details-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  width: 80%;
   margin: 20px auto;
-  height: 550px;
 }
 
 .details .details-info {
   border: 1px solid #000000;
   border-radius: 10px;
   padding: 20px;
+  min-width: 37%;
+  margin-right: 20px;
 }
 
 .details .details-info .details-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   padding-top: 10px;
 }
 
-.details .details-info .details-container .first-col {
-  padding-right: 20px;
-  background-color: red;
-  width: 200px;
+.details .details-info .details-container .each-list-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
-.details .details-info .details-container .second-col {
-  width: 200px;
-  background-color: blue;
+.details .details-info .details-container .each-list-item .list-title {
+  min-width: 50%;
+  padding-bottom: 10px;
+}
+
+.details .details-info .details-container .each-list-item .list-points {
+  padding: 0 0 10px 40px;
+}
+
+.details .description {
+  border: 1px solid #000000;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.cta-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 20px;
+}
+
+.cta-btn .book-btn {
+  background-color: #90e9e9;
+  border: none;
+  border-radius: 10px;
+  padding: 20px 85px;
+  color: #000000;
+  font-weight: 700;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.cta-btn .book-btn:hover {
+  background-color: #52a5a5;
+  color: #fff;
+  -webkit-transition: background-color 1s, color 1s;
+  transition: background-color 1s, color 1s;
 }
 /*# sourceMappingURL=main.css.map */
