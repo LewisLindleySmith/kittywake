@@ -6,11 +6,12 @@
   }
 
   .details-info {
-    border: 1px solid #000000;
     border-radius: 10px;
     padding: 20px;
     min-width: 37%;
     margin-right: 20px;
+    background-color: $details-bg;
+    line-height: 1.6;
 
     .details-container {
       padding-top: 10px;
@@ -20,7 +21,7 @@
 
         .list-title {
           min-width: 50%;
-          padding-bottom: 10px;
+          padding-bottom: 20px;
         }
 
         .list-points {
@@ -31,9 +32,10 @@
   }
 
   .description {
-    border: 1px solid #000000;
     border-radius: 10px;
     padding: 20px;
+    background-color: $details-bg;
+    line-height: 1.6;
   }
 }
 
